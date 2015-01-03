@@ -18,7 +18,7 @@ EOF
 
 if [ ! -e ~/taiga-front ]; then
     # Initial clear
-    git clone https://github.com/taigaio/taiga-front.git taiga-front
+    git clone https://github.com/aliirz/taiga-front.git taiga-front
     pushd ~/taiga-front
     git checkout -f stable
 
@@ -54,6 +54,3 @@ else
 fi
 
 popd
-
-
-
